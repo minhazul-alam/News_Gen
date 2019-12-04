@@ -53,9 +53,9 @@ model.add(Dense(y.shape[1], activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 # define the checkpoint
-filepath = "bn_model.hdf5"
+filepath = "bn_model25.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
 # fit the model
-model.fit(X, y, epochs=25, batch_size=64, callbacks=callbacks_list)
+model.fit(X, y, epochs=30, batch_size=64, callbacks=callbacks_list)

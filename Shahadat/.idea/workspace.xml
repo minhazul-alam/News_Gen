@@ -14,13 +14,36 @@
     <SUITE FILE_PATH="coverage/Shahadat$gen3.coverage" NAME="gen3 Coverage Results" MODIFIED="1575401412504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
     <SUITE FILE_PATH="coverage/Shahadat$wonderland.coverage" NAME="wonderland Coverage Results" MODIFIED="1575402074487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/Code" />
     <SUITE FILE_PATH="coverage/Shahadat$generator2.coverage" NAME="generator2 Coverage Results" MODIFIED="1575402211917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
-    <SUITE FILE_PATH="coverage/Shahadat$text_generator__1_.coverage" NAME="text_generator (1) Coverage Results" MODIFIED="1575451322921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/bangla" />
+    <SUITE FILE_PATH="coverage/Shahadat$text_generator__1_.coverage" NAME="text_generator (1) Coverage Results" MODIFIED="1575454944172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/bangla" />
     <SUITE FILE_PATH="coverage/Shahadat$text_generator.coverage" NAME="text_generator Coverage Results" MODIFIED="1575405580947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code" />
-    <SUITE FILE_PATH="coverage/Shahadat$model_generator__1_.coverage" NAME="model_generator (1) Coverage Results" MODIFIED="1575451434200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/bangla" />
+    <SUITE FILE_PATH="coverage/Shahadat$model_generator__1_.coverage" NAME="model_generator (1) Coverage Results" MODIFIED="1575452388528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code/bangla" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="model_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Code/bangla/model_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <element signature="e#63#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_generator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/bangla/text_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +62,7 @@
         <option value="$PROJECT_DIR$/Code/generator2.py" />
         <option value="$PROJECT_DIR$/Code/model_generator.py" />
         <option value="$PROJECT_DIR$/Code/text_generator.py" />
+        <option value="$PROJECT_DIR$/data/bn_single.txt" />
         <option value="$PROJECT_DIR$/Code/bangla/text_generator.py" />
         <option value="$PROJECT_DIR$/Code/bangla/model_generator.py" />
       </list>
@@ -155,8 +179,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\MSc\My Team\Machine Learning Team\News_Gen\Shahadat\Code\bangla" />
       <recent name="F:\MSc\My Team\Machine Learning Team\News_Gen\Shahadat\data" />
+      <recent name="F:\MSc\My Team\Machine Learning Team\News_Gen\Shahadat\Code\bangla" />
       <recent name="F:\MSc\My Team\Machine Learning Team\News_Gen\Shahadat\Code" />
     </key>
   </component>
@@ -425,8 +449,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.model_generator (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.text_generator (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.text_generator (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.model_generator (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.text_generator" />
         <item index="3" class="java.lang.String" itemvalue="Python.model_generator" />
         <item index="4" class="java.lang.String" itemvalue="Python.generator2" />
@@ -448,6 +472,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="0" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -455,7 +480,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30278233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40425533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6988543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -566,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/bn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/text_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -584,10 +601,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/bn_single.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/bangla/model_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="157">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding>
             <element signature="e#63#75#0" expanded="true" />
           </folding>
@@ -596,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/bangla/text_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="84">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
