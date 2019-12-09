@@ -14,7 +14,7 @@ import os
 SEQUENCE_LEN = 8        #have to try different sequence length
 MIN_WORD_FREQUENCY = 10 #haven't used it here
 STEP = 1                #have to try 2/3
-BATCH_SIZE = 32         #can take larger
+BATCH_SIZE = 64         #can take larger
 
 def print_vocabulary(words_file_path, words_set):
     words_file = io.open(words_file_path, 'w', encoding='utf8')
@@ -37,34 +37,35 @@ def generator(sentence_list, next_word_list, batch_size):
             index = index + 1
         yield x, y
 
-def get_model(dropout=0.2):
+def get_model(dropout=0.2):     #have to study the optimal dropout ratio for NLP
     print('Build model...')
     model = Sequential()
     model.add(Bidirectional(LSTM(128), input_shape=(SEQUENCE_LEN, len(words))))
     if dropout > 0:
         model.add(Dropout(dropout))
-    model.add(Dense(len(words)))
-    model.add(Activation('softmax'))
+    model.add(Dense(len(words)))        #learn it
+    model.add(Activation('softmax'))    #learn it
     return model
 
-def sample(preds, temperature=1.0):
+def sample(preds, temperature=1.0):     #high temp ~ pick any, low temp ~ pick best
     # helper function to sample an index from a probability array
-    preds = np.asarray(preds).astype('float64')
-    preds = np.log(preds) / temperature
-    exp_preds = np.exp(preds)
-    preds = exp_preds / np.sum(exp_preds)
-    probas = np.random.multinomial(1, preds, 1)
-    return np.argmax(probas)
+    preds = np.asarray(preds).astype('float64') #prediction as numpy float64 array
+    preds = np.log(preds) / temperature     #divide by temperature and take log
+    exp_preds = np.exp(preds)               #take exp: e_p = e^(ln(preds)/temp)
+    preds = exp_preds / np.sum(exp_preds)   #normalize
+    probas = np.random.multinomial(1, preds, 1) #returns picked value
+    return np.argmax(probas)    #returns index
 
 def on_epoch_end(epoch, logs):
     # Function invoked at end of each epoch. Prints generated text.
     examples_file.write('\n----- Generating text after Epoch: %d\n' % epoch)
-
+    if epoch % 2 == 1:
+        return
     # Randomly pick a seed sequence
     seed_index = np.random.randint(len(sentences))
     seed = (sentences)[seed_index]
 
-    for diversity in [0.3, 0.5, 0.7]:
+    for diversity in [0.1, 0.3, 0.5, 0.7, 0.9]:
         sentence = seed
         examples_file.write('----- Diversity:' + str(diversity) + '\n')
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
@@ -77,7 +78,7 @@ def on_epoch_end(epoch, logs):
                 x_pred[0, t, word_indices[word]] = 1.
 
             preds = model.predict(x_pred, verbose=0)[0]
-            next_index = sample(preds, diversity)
+            next_index = sample(preds, diversity)   #diversity ~ temperature
             next_word = indices_word[next_index]
 
             sentence = sentence[1:]
@@ -128,5 +129,5 @@ if __name__ == "__main__":
     examples_file = open(examples, "w", encoding="utf-8")
     model.fit_generator(generator(sentences, next_words, BATCH_SIZE),
                         steps_per_epoch=int(len(sentences)/BATCH_SIZE) + 1,
-                        epochs=50,
+                        epochs=40,
                         callbacks=callbacks_list)
