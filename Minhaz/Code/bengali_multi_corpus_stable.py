@@ -12,6 +12,7 @@ import io
 import os
 from nltk.corpus.reader import PlaintextCorpusReader
 from nltk import RegexpTokenizer
+import re
 
 SEQUENCE_LEN = 8        #have to try different sequence length
 MIN_WORD_FREQUENCY = 10 #haven't used it here
@@ -114,10 +115,13 @@ if __name__ == "__main__":
     
     w_t = RegexpTokenizer("[\u0980-\u09FF']+")
     corpus = PlaintextCorpusReader(corpus_dir, r'.*\.txt', word_tokenizer=w_t)
+    #corpus = PlaintextCorpusReader(corpus_dir, '1.txt', word_tokenizer=w_t)
     
     text_in_words = corpus.words()
+    text_in_words = [re.sub(r'\d+', '<number>', w) for w in text_in_words]
+    
     print('Corpus length in words:', len(text_in_words))
-
+    
     if not os.path.isdir('F:/Minhaz/GitHubRepo/News_Gen/Minhaz/Code/Bengali_Work/checkpoints/'):
         os.makedirs('F:/Minhaz/GitHubRepo/News_Gen/Minhaz/Code/Bengali_Work/checkpoints/')
     
@@ -132,6 +136,8 @@ if __name__ == "__main__":
     next_words = []
     for f in files:
         words_in_file = corpus.words(f)
+        words_in_file = [re.sub(r'\d+', '<number>', w) for w in words_in_file]
+        
         for i in range(0, len(words_in_file) - SEQUENCE_LEN, STEP):
             sentences.append(words_in_file[i: i + SEQUENCE_LEN])
             next_words.append(words_in_file[i + SEQUENCE_LEN])
