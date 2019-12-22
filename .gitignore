@@ -3,3 +3,4 @@ venv
 .idea
 .git
 word2vec_model/
+checkpoints/
