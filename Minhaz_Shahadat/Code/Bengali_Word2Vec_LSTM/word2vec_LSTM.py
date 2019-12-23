@@ -60,7 +60,7 @@ def on_epoch_end(epoch, logs):
         examples_file.write('----- Generating with seed:\n"' + ' '.join(sentence) + '"\n')
         examples_file.write(' '.join(sentence))
 
-        for i in range(10):
+        for i in range(20):
             x_pred = np.zeros((1, SEQUENCE_LEN), dtype=np.int32)
             for t, word in enumerate(sentence):
                 x_pred[0, t] = word2idx(word)
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
     examples_file = open(examples, "w", encoding="utf-8")
     model.fit_generator(generator(sentences, next_words, BATCH_SIZE), steps_per_epoch=int(len(sentences)/BATCH_SIZE) + 1, 
-                        epochs=40, callbacks=callbacks_list)
+                        epochs=35, callbacks=callbacks_list)
 
 
 
