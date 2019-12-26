@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-26T13:05:00.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="waLjb5JNsr3hUdCBaq42" version="12.4.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-26T13:06:01.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="DJEvOu-WD9iy4XSvHiwr" version="12.4.3" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="868" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -290,6 +290,11 @@
         <mxCell id="XkZNge3gmHF0FqVST84T-40" value="Real News" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;container=1;recursiveResize=0;treeFolding=1;treeMoving=1;" vertex="1" parent="XkZNge3gmHF0FqVST84T-35">
           <mxGeometry x="160" y="140" width="100" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="AFZL_GwDcuIoH56TaFml-1" source="XkZNge3gmHF0FqVST84T-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="2030" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XkZNge3gmHF0FqVST84T-48" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
           <mxGeometry x="230" y="1810" width="370" height="140" as="geometry"/>
         </mxCell>
@@ -303,6 +308,9 @@
         </mxCell>
         <mxCell id="XkZNge3gmHF0FqVST84T-53" value="&lt;div&gt;Accuracy&lt;/div&gt;&lt;div&gt; Matrix&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/oxygen/48x48/actions/matrix.png;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
           <mxGeometry x="426" y="1842" width="48" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-56" value="Web url" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/seo-outline-colored-free/128/Server_Proxy_Hosting_Url_link_window-128.png;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="358" y="2040" width="128" height="128" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
