@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-26T10:50:09.822Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="6E670wg52tVfZeNjoLBk" version="12.4.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-26T10:56:24.173Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="VcE1OLSEL0fSE368Dy8V" version="12.4.3" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1157" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -175,8 +175,25 @@
       <root>
         <mxCell id="AFZL_GwDcuIoH56TaFml-0"/>
         <mxCell id="AFZL_GwDcuIoH56TaFml-1" parent="AFZL_GwDcuIoH56TaFml-0"/>
-        <mxCell id="AFZL_GwDcuIoH56TaFml-2" value="&lt;b style=&quot;white-space: normal&quot;&gt;Extraction of news URL&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
-          <mxGeometry x="280" y="30" width="240" height="110" as="geometry"/>
+        <mxCell id="20gqtJ6qzk5f3uXVCiOF-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;targetPerimeterSpacing=1;strokeWidth=3;" edge="1" parent="AFZL_GwDcuIoH56TaFml-1" source="AFZL_GwDcuIoH56TaFml-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFZL_GwDcuIoH56TaFml-2" value="&lt;b style=&quot;white-space: normal&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Extraction of news URL&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="260" y="30" width="290" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="20gqtJ6qzk5f3uXVCiOF-2" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Step%201%22%20style%3D%22shape%3Dstep%3Bperimeter%3DstepPerimeter%3BfixedSize%3D1%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22413%22%20width%3D%22100%22%20height%3D%2257%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#000000;strokeWidth=3;fillColor=none;gradientColor=#ffffff;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="240" y="240" width="390" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="dXTj9mX9FjoX-afcLzIc-4" value="Pre-Processing" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="290" y="250" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="dXTj9mX9FjoX-afcLzIc-5" value="Web Scrapping" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="dXTj9mX9FjoX-afcLzIc-4">
+          <mxGeometry x="10" y="33" width="140" height="57" as="geometry"/>
+        </mxCell>
+        <mxCell id="dXTj9mX9FjoX-afcLzIc-7" value="News Source &#xa;URL.csv" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];" vertex="1" parent="dXTj9mX9FjoX-afcLzIc-4">
+          <mxGeometry x="138" y="33" width="152" height="57" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
