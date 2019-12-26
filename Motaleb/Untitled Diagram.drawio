@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-26T12:57:41.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="ntGiM8Ab6bpAVc4Q7kEn" version="12.4.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-26T13:05:00.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="waLjb5JNsr3hUdCBaq42" version="12.4.3" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="868" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -265,6 +265,11 @@
         <mxCell id="XkZNge3gmHF0FqVST84T-24" value="&lt;div&gt;News Body&lt;/div&gt;&lt;div&gt;Analysis&lt;br&gt;&lt;/div&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
           <mxGeometry x="510" y="1320" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="AFZL_GwDcuIoH56TaFml-1" source="XkZNge3gmHF0FqVST84T-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XkZNge3gmHF0FqVST84T-35" value="Classification of fake/real news" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
           <mxGeometry x="285" y="1500" width="280" height="220" as="geometry"/>
         </mxCell>
@@ -284,6 +289,20 @@
         </mxCell>
         <mxCell id="XkZNge3gmHF0FqVST84T-40" value="Real News" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;container=1;recursiveResize=0;treeFolding=1;treeMoving=1;" vertex="1" parent="XkZNge3gmHF0FqVST84T-35">
           <mxGeometry x="160" y="140" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-48" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="230" y="1810" width="370" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="AFZL_GwDcuIoH56TaFml-1" source="XkZNge3gmHF0FqVST84T-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1866" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-50" value="&lt;div&gt;Hypothetical&lt;/div&gt;&lt;div&gt;Analysis&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/application-4/74/68-128.png;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="270" y="1822" width="88" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="XkZNge3gmHF0FqVST84T-53" value="&lt;div&gt;Accuracy&lt;/div&gt;&lt;div&gt; Matrix&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/oxygen/48x48/actions/matrix.png;dashed=1;" vertex="1" parent="AFZL_GwDcuIoH56TaFml-1">
+          <mxGeometry x="426" y="1842" width="48" height="48" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
