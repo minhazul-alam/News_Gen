@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-26T10:41:11.013Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="LBOfrKKM2LjXyRELnBVx" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-26T10:42:57.825Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="t3xbYgrWiC_xw-Cdcenb" version="12.4.3" type="github" pages="1">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="868" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="kekHBiYMwRnvM6pJE4PE-90" value="Web Scrapping" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="430" y="450" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="kekHBiYMwRnvM6pJE4PE-65" value="" style="endArrow=block;endFill=1;endSize=6;html=1;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-65" value="" style="endArrow=block;endFill=1;endSize=6;html=1;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kekHBiYMwRnvM6pJE4PE-63">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="370" y="480" as="sourcePoint"/>
             <mxPoint x="430" y="480" as="targetPoint"/>
