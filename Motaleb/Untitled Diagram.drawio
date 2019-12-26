@@ -1,31 +1,52 @@
-<mxfile host="www.draw.io" modified="2019-12-26T10:04:02.937Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="5dawBkmVLoDpARLOG2qB" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-26T10:14:32.634Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="TVKfYM15HBsbENU1KU1k" version="12.4.3" type="github" pages="1">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="epjkKCezwlBWLulwur_t-55" value="Extraction of news URL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="40" width="120" height="60" as="geometry"/>
+          <mxGeometry x="280" y="60" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;exitX=0.436;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kekHBiYMwRnvM6pJE4PE-3" target="kekHBiYMwRnvM6pJE4PE-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="325" as="targetPoint"/>
+            <Array as="points"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kekHBiYMwRnvM6pJE4PE-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="210" width="415" height="190" as="geometry"/>
+          <mxGeometry x="200" y="160" width="415" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="kekHBiYMwRnvM6pJE4PE-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="120" height="60" as="geometry"/>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-5" value="Web Scrapping" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="kekHBiYMwRnvM6pJE4PE-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="120" height="60" as="geometry"/>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-6" value="News Source URL.csv" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="kekHBiYMwRnvM6pJE4PE-8" value="Pre-Processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="237.5" y="220" width="300" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="kekHBiYMwRnvM6pJE4PE-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="110" width="40" height="90" as="geometry"/>
+          <mxGeometry x="240" y="170" width="300" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="kekHBiYMwRnvM6pJE4PE-25" value="" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="380" y="300" as="sourcePoint"/>
-            <mxPoint x="440" y="300" as="targetPoint"/>
+            <mxPoint x="370" y="240" as="sourcePoint"/>
+            <mxPoint x="430" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;targetPerimeterSpacing=1;" edge="1" parent="1" source="kekHBiYMwRnvM6pJE4PE-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-30" value="Extraction of full news data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-42" value="Extraction of full news data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;gradientColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="kekHBiYMwRnvM6pJE4PE-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;targetPerimeterSpacing=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="122" as="sourcePoint"/>
+            <mxPoint x="380" y="160" as="targetPoint"/>
+            <Array as="points"/>
           </mxGeometry>
         </mxCell>
       </root>
