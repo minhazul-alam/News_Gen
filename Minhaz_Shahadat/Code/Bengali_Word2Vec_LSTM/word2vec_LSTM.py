@@ -115,7 +115,8 @@ if __name__ == "__main__":
     if not os.path.isdir(directory + 'checkpoints/'):
         os.makedirs(directory + 'checkpoints/')
     
-    vector_model = word2vec.Word2Vec(text_in_words, size = 500, min_count = 1, window = 5)
+    # Try different window sizes
+    vector_model = word2vec.Word2Vec(text_in_words, size = 500, min_count = 1, window = 7)
     trained_wts = vector_model.wv.vectors
     vocab_sz, embed_sz = trained_wts.shape
     
