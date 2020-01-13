@@ -1,17 +1,11 @@
 # -*- coding: utf-8 -*-
 import io
-from nltk.corpus.reader import PlaintextCorpusReader
-from nltk import RegexpTokenizer
+import re
 
 output_file = io.open('f:/output.txt', 'w', encoding='utf-8')
+in_file = open('F:/Minhaz/GitHubRepo/News_Gen/Minhaz_Shahadat/Code/Bengali_Word2Vec_LSTM/corpus/1.txt', 'r', encoding='utf-8')
+lines = in_file.read()
 
-w_t = RegexpTokenizer("[\u0980-\u09FF']+")
-corpus = PlaintextCorpusReader('F:/Minhaz/GitHubRepo/News_Gen/Minhaz/Code/Bengali_Work/corpus/', r'.*\.txt', word_tokenizer=w_t)
-files = corpus.fileids()
+re.sub(r'\u09F7', ' । ', lines)
 
-for f in files:
-    words = corpus.words(f)
-    for w in words:
-        output_file.write(w+"\t")
-    output_file.write('\n'+'='*30+'\n')
-output_file.close()
+print(lines)
